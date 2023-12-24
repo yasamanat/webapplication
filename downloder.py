@@ -3,7 +3,7 @@ import requests
 def download_image(url, file_name):
     response = requests.get(url)
     if response.status_code == 200:
-        with open(file_name, 'wb') as file:
+        with open(file_name, 'wb') as documents:
             file.write(response.content)
         print("Image downloaded successfully! thanks a lot")
     else:
