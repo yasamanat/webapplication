@@ -7,9 +7,9 @@ def download_image(url, file_name):
             file.write(response.content)
         print("Image downloaded successfully!")
     else:
-        print("Failed to download image. Please check the URL.")
+        print("Failed to download image. Please check the URL. please contact us")
 
 # example usage
-image_url = "https://example.com/image.jpg"
+image_url = "https://example.com/yasaman.jpg"
 file_name = "image.jpg"
 download_image(image_url, file_name)
