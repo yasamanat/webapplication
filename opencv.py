@@ -10,10 +10,10 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blur = cv2.GaussianBlur(gray, (5, 5), 0)
 
 # Perform Canny edge detection
-edges = cv2.Canny(blur, 50, 150)
+edges = cv2.Canny(blur, 25, 150)
 
 # Show original and edge-detected images
-cv2.imshow('Original Image', image)
+cv2.imshow('Original Image of sunflower', image)
 cv2.imshow('Edge Detected Image', edges)
 
 # Wait for a key press and then exit
