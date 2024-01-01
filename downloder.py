@@ -5,9 +5,9 @@ def download_image(url, file_name):
     if response.status_code == 200:
         with open(file_name, 'wb') as file:
             file.write(response.content)
-        print("Image downloaded successfully! thanks a lot")
+        print("Image downloaded successfully! thanks .a lot")
     else:
-        print("Failed to download image. Please check the URL. please contact us")
+        print("Failed to download image. Please check the URL.gi")
 
 # example usage
 image_url = "https://example.com/yasaman.jpg"
